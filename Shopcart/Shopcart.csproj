@@ -133,6 +133,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="images\thumbs.db" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="images\calendar.png" />
     <Content Include="images\sitemap.png" />
@@ -158,11 +159,19 @@
     <Content Include="index_old.html" />
     <Content Include="ProductImages\athx.jpg" />
     <Content Include="ProductImages\barbros.jpg" />
+    <Content Include="ProductImages\benchpress.jpg" />
+    <Content Include="ProductImages\benchrack.jpg" />
+    <Content Include="ProductImages\californiabarbell.jpg" />
+    <Content Include="ProductImages\dumbellrack.jpg" />
     <Content Include="ProductImages\goldsgym.jpg" />
     <Content Include="ProductImages\image1.jpg" />
     <Content Include="ProductImages\image2.jpg" />
     <Content Include="ProductImages\image3.jpg" />
+    <Content Include="ProductImages\logoweightlift.jpg" />
     <Content Include="ProductImages\noImage.jpg" />
+    <Content Include="ProductImages\pullgif.gif" />
+    <Content Include="ProductImages\pullupbar.jpg" />
+    <Content Include="ProductImages\squatrack.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />

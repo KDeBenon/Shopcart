@@ -25,7 +25,7 @@
                     <asp:Label ID="Label1" runat="server" Text='<%# Bind("Image") %>'></asp:Label>
                 </ItemTemplate>
             </asp:TemplateField>
-            <asp:BoundField DataField="Price" HeaderText="Price" SortExpression="Price" />
+            <asp:BoundField DataField="Price" HeaderText="Price" SortExpression="Price" DataFormatString="{0:c}" />
             <asp:BoundField DataField="Description" HeaderText="Description" SortExpression="Description" />
             <asp:CommandField ShowInsertButton="True" />
         </Fields>
@@ -81,7 +81,7 @@
                     <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("Price") %>'></asp:TextBox>
                 </EditItemTemplate>
                 <ItemTemplate>
-                    <asp:Label ID="Label1" runat="server" Text='<%# Bind("Price", "${0:c}") %>'></asp:Label>
+                    <asp:Label ID="Label1" runat="server" Text='<%# Bind("Price", "{0:c}") %>'></asp:Label>
                 </ItemTemplate>
                 <ControlStyle Width="75px" />
             </asp:TemplateField>

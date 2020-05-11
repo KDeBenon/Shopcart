@@ -15,6 +15,15 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .auto-style3 {
+            height: 42px;
+            width: 107px;
+        }
+        .auto-style4 {
+            width: 86%;
+        }
+    </style>
 </head>
 <body>
     <form runat="server">
@@ -43,41 +52,37 @@
     <div id="tooplate_header">
     
         <div id="site_title">
-        
-        	<h1><a href="#"><img src="images/tooplate_logo.png" alt="business template" /><span>Free HTML Template</span></a></h1>
-        
-        </div> <!-- end of site_title -->
+            &nbsp;<h1>Kdeb Fit</h1>
+            &nbsp;</div> <!-- end of site_title -->
         
         <div id="header_phone_no">
 
-			Toll Free: <span>212.720.5000</span>
+			 <span>
+                 &nbsp;<img src="ProductImages/logoweightlift.jpg" class="auto-style3" /></span></div>
         
-        </div>
-        
-        <div class="cleaner_h10"></div>
+<div class="cleaner_h10"></div>
         
         <div id="tooplate_menu">
         	
-            <div id="home_menu"><a href="#"></a></div>
-                
-            <ul>
-                <li><a runat="server" href="~/Default.aspx" class="current">Home</a></li>
-                <li><a runat="server" href="~/About.aspx">About</a></li>
-                <li><a runat="server" href="~/contact.aspx">Contact</a></li>
-                <li><a runat="server" href="~/viewcart.aspx">View Cart</a></li>
-                <li><a runat="server" href="~/admin/default.aspx">Admin</a></li>
-            </ul>    	
-        
-        </div> <!-- end of tooplate_menu -->
+               <div class="navigation">
+   <ul>
+          <li><a runat="server" href="~/Default.aspx">Home</a></li>
+          <li><a runat="server" href="~/About.aspx">About Us</a></li>
+          <li><a runat="server" href="~/Contact.aspx">Contact Us</a></li>
+          <li><a runat="server" href="~/ViewCart.aspx">View Cart</a></li>
+          <li><a runat="server" href="~/admin/Default.aspx">Admin</a></li>
+    </ul>
+</div>
+ <!-- end of tooplate_menu -->
         
     </div>	  
 </div> <!-- end of header_wrapper -->
 
-<div id="tooplate_middle_wrapper1">
+<div id="tooplate_middle_wrapper1" class="auto-style4">
 	<div id="tooplate_middle_wrapper2">
 		<div id="tooplate_middle">
 
-			<h1>BE ACTIVE<span>with the best coffee</span></h1>
+			<h1>Get Fit<span>with the best available equipment</span></h1>
 			
 		</div>
 	</div>
@@ -86,10 +91,10 @@
 <div id="tooplate_main">
     <div id="tooplate_content">
     
-        <h2>Welcome to Business Theme</h2>
+        <h2>Welcome to Kdeb Fit</h2>
     <asp:ContentPlaceHolder ID="MainContent" runat="server">
     </asp:ContentPlaceHolder>       
-  
+
         
         <div class="cleaner_h30 horizon_divider"></div>
         <div class="cleaner_h30"></div>
@@ -108,7 +113,7 @@
                 <asp:Repeater ID="Repeater1" runat="server" DataSourceID="dataProductCategories">
                     <ItemTemplate>
                         <li> 
-                              <a href="/shop.aspx?Category=<%# DataBinder.Eval(Container.DataItem, "Category") %>" >
+                              <a href="/debenon/shopcart/shop.aspx?Category=<%# DataBinder.Eval(Container.DataItem, "Category") %>" >
                               <%# DataBinder.Eval(Container.DataItem, "Category") %>
                               </a>
                         </li>

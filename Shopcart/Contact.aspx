@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2>Contact Page</h2>
-    <h3>Contact Information.</h3>
+    <h3>Contact Information:</h3>
     <address>
         33 Libery St<br />
         New York, New York 10045<br />

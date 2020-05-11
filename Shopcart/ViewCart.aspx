@@ -1,13 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ViewCart.aspx.cs" Inherits="Shopcart.ViewCart" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <br /><br />
-    <asp:Table ID="tblCart" runat="server" Width="556px">
+    <asp:Table ID="tblCart" runat="server" Width="572px">
         <asp:TableRow runat="server">
-            <asp:TableCell runat="server">Category</asp:TableCell>
-            <asp:TableCell runat="server">Product</asp:TableCell>
+            <asp:TableCell runat="server" HorizontalAlign="Left">Category</asp:TableCell>
+            <asp:TableCell runat="server" HorizontalAlign="Left">Product</asp:TableCell>
             <asp:TableCell runat="server" HorizontalAlign="Right">Price</asp:TableCell>
             <asp:TableCell runat="server" HorizontalAlign="Right">Quantity</asp:TableCell>
-            <asp:TableCell runat="server">Total</asp:TableCell>
+            <asp:TableCell runat="server" HorizontalAlign="Center">Total</asp:TableCell>
         </asp:TableRow>
     </asp:Table><br />&nbsp;&nbsp;&nbsp; Order Total:
     <asp:Label ID="lblOrderTotal" runat="server" Text="$0.00"></asp:Label>
