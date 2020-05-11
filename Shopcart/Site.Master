@@ -97,24 +97,33 @@
         <div class="col_w270 float_l">
         </div>   
         </div>
-        
+            
     </div>
     
+        <div id="tooplate_sidebar">
         
+            <h2>Our Products</h2>
+            <ul>
+                <asp:SqlDataSource ID="dataProductCategories" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT DISTINCT [Category] FROM [Products] ORDER BY [Category]"></asp:SqlDataSource>
+                <asp:Repeater ID="Repeater1" runat="server" DataSourceID="dataProductCategories">
+                    <ItemTemplate>
+                        <li> 
+                              <a href="/shop.aspx?Category=<%# DataBinder.Eval(Container.DataItem, "Category") %>" >
+                              <%# DataBinder.Eval(Container.DataItem, "Category") %>
+                              </a>
+                        </li>
+                    </ItemTemplate>
+                </asp:Repeater>
+
+            </ul>
+    </div>
+    <div class="cleaner_h60">
+        <h2>Advertisement</h2>
+        <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/App_Data/ads.xml"></asp:XmlDataSource>
+        <asp:AdRotator ID="AdRotator1" runat="server" DataSourceID="XmlDataSource1" Height="150px" Width="150px" />
+    </div>
         
 		<div class="cleaner"></div>
-
-    <div class="cleaner"></div>  
-
-<div id="tooplate_footer_wrapper">
-
-     <div id="tooplate_footer">
-    
-        Copyright © 2048 <a href="#">Company Name</a> - Design: <a href="http://www.tooplate.com">tooplate</a>
-    
-    </div> <!-- end of tooplate_footer -->    
-</div> 
-
 
     </form>
 </body>

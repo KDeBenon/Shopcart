@@ -108,6 +108,7 @@
     <Content Include="About.aspx" />
     <Content Include="about.html" />
     <Content Include="admin\Default.aspx" />
+    <Content Include="App_Data\ads.xml" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
@@ -155,9 +156,13 @@
     <Content Include="images\tooplate_menu.png" />
     <Content Include="images\tooplate_vertical_divider.jpg" />
     <Content Include="index_old.html" />
+    <Content Include="ProductImages\athx.jpg" />
+    <Content Include="ProductImages\barbros.jpg" />
+    <Content Include="ProductImages\goldsgym.jpg" />
     <Content Include="ProductImages\image1.jpg" />
     <Content Include="ProductImages\image2.jpg" />
     <Content Include="ProductImages\image3.jpg" />
+    <Content Include="ProductImages\noImage.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -301,9 +306,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>49937</DevelopmentServerPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:49937/</IISUrl>
+          <IISUrl>http://localhost:57914/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

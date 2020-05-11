@@ -15,6 +15,24 @@ namespace Shopcart.admin
     {
 
         /// <summary>
+        /// btnAddNewProduct control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAddNewProduct;
+
+        /// <summary>
+        /// dvAddProduct control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DetailsView dvAddProduct;
+
+        /// <summary>
         /// dataMaintainProducts control.
         /// </summary>
         /// <remarks>

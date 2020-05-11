@@ -13,5 +13,23 @@ namespace Shopcart
         {
 
         }
+
+        protected void btnAddToCart_Click(object sender, EventArgs e)
+        {
+            HttpCookie myCookie = new
+                        HttpCookie(dvProduct.DataKey.Value.ToString());
+            myCookie["Category"] = dvProduct.DataKey["Category"].ToString();
+            myCookie["Product"] = dvProduct.DataKey["Product"].ToString();
+
+            myCookie["Quantity"] = txtQuantity.Text;
+
+            myCookie["Price"] = dvProduct.DataKey["Price"].ToString();
+
+            myCookie.Expires = DateTime.Now.AddDays(1d);
+
+            Response.Cookies.Add(myCookie);
+
+            Response.Redirect("ViewCart.aspx", true);
+        }
     }
 }

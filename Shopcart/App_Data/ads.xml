@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>productimages/athx.jpg</ImageUrl>
+    <NavigateUrl>https://www.athleanx.com/</NavigateUrl>
+    <AlternateText>Athlean X Fitness</AlternateText>
+    <Keyword>Athlean</Keyword>
+    <Impressions>25</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>productimages/goldsgym.jpg</ImageUrl>
+    <NavigateUrl>https://www.goldsgym.com/</NavigateUrl>
+    <AlternateText>Golds Gym</AlternateText>
+    <Keyword>Golds</Keyword>
+    <Impressions>25</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>productimages/barbros.jpg</ImageUrl>
+    <NavigateUrl>https://www.barbrothers.com/</NavigateUrl>
+    <AlternateText>Bar Brothers</AlternateText>
+    <Keyword>Bar Brothers</Keyword>
+    <Impressions>50</Impressions>
+  </Ad>
+</Advertisements>
